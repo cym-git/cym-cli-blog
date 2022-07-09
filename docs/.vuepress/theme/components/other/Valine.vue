@@ -35,6 +35,8 @@ export default {
         ...this.options
       }
 
+      console.log(valineOptions, 'valineOptions');
+
       if (typeof window !== 'undefined') {
         this.window = window
         window.AV = AV

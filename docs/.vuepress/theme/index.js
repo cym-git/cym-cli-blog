@@ -23,7 +23,7 @@ module.exports = (options, ctx) => ({
       selector: '.theme-reco-content :not(a) > img'
     }],
     '@vuepress/plugin-nprogress',
-    // Markdown tip
+    // markdown
     ['container', {
       type: 'tip',
       defaultTitle: {
@@ -42,5 +42,6 @@ module.exports = (options, ctx) => ({
         '/zh/': '警告'
       }
     }],
-  ]
+  ],
+
 })

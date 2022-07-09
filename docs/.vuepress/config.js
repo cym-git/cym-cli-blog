@@ -10,7 +10,7 @@ module.exports = {
   dest: './love',
   head,
   theme: require.resolve('./theme'),
-  serviceWorker: true, // 是否开启 PWA
+  serviceWorker: false, // 是否开启 PWA
   themeConfig,
   markdown,
   plugins,

@@ -32,9 +32,6 @@ module.exports = {
           chunkFilename: 'assets/css/[id].[hash].css'
         })
       )
-      config.plugins.push(
-        new webpack.IgnorePlugin(/\.\/locale/, /moment/)
-      )
     }
   }
 }
