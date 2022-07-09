@@ -6,7 +6,7 @@
 
 ## Version
 
-cym-blog -v 1.2.
+cym-blog -v 1.2.0
 cym-blog-template -v 2.1.0
 
 ## Example
